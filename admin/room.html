@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page - Pacific Hotel</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <header>
+        <h1>Pacific Hotel Admin Page</h1>
+        <nav>
+            <ul>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="bookings.html">Bookings</a></li>                
+                <li><a href="../index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Edit Room Details</h2>
+        <form id="edit-room-form">
+            <label for="name">Room Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" required></textarea>
+            
+            <label for="price">Price:</label>
+            <input type="number" id="price" step="0.01" required>
+            
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" required>
+            
+            <button type="submit">Update Room</button>
+        </form>
+
+    <script src="../js/room_admin.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2023 Pacific Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>

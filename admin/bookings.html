@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page - Pacific Hotel</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pacific Hotel Admin Page</h1>
+        <nav>
+            <ul>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="bookings.html">Bookings</a></li>                
+                <li><a href="../index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="booking-list">
+            <!-- Room cards will be dynamically loaded here -->
+        </div>
+
+        <div id="pagination">
+            <!-- Pagination buttons will be dynamically loaded here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Pacific Hotel. All rights reserved.</p>
+    </footer>
+    <script src="../js/bookings.js"></script>
+</body>
+</html>

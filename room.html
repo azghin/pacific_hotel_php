@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   <!-- responcive nav bar -->
+   <nav>
+    <div class="logo">
+      <img
+        src="images/logo.png"
+        alt="logo"
+      />
+    </div>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="rooms.html">rooms</a>
+      </li>
+      <li>
+        <a href="login.html">login</a>
+      </li>
+      <!-- <li>
+        <button id="dark-mode-toggle">Dark Mode</button>
+      </li> -->
+    </ul>
+    
+    <div class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+  </nav>
+  <div class="menubar">
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="rooms.html">Rooms</a>
+      </li>
+      <li>
+        <a href="login.html">Login</a>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+  <!-- end responcive nav bar -->
+
+
+  <section id="hero" class="wrapper">
+    <div class="left">
+      <h1>Book Your Room</h1>
+      <p>
+        Welcome to Pacific Hotel – Your perfect getaway by the sea. Experience luxury, comfort, and unforgettable views, all in one place. Book your stay now and enjoy an exclusive offer!
+      </p>
+    </div>
+    <div class="right">
+      <img
+        src="images/bg/Hotel Booking-pana.svg"
+        alt="hotel"
+      />
+    </div>
+  </section>
+
+    <div id="room-details">
+        <!-- Room details will be dynamically loaded here -->
+    </div>
+
+    <form id="reservation-form">
+        <input type="text" id="guest-name" placeholder="Your Name" required>
+        <input type="email" id="guest-email" placeholder="Your Email" required>
+        <input type="date" id="check-in" required>
+        <input type="date" id="check-out" required>
+        <button type="submit">Book Now</button>
+    </form>
+
+
+
+
+
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>
+            Pacific Hotel is a premier destination for travelers seeking luxury and comfort. Our hotel offers top-notch amenities and services to ensure a memorable stay.
+          </p>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <p>Email:
+    </section>
+
+    <script src="js/room.js"></script>
+    <script src="js/navbar.js"></script>
+
+</body>
+</html>

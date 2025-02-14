@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Reservation</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+    <!-- responcive nav bar -->
+    <nav>
+      <div class="logo">
+        <img
+          src="images/logo.png"
+          alt="logo"
+        />
+      </div>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="rooms.html">rooms</a>
+        </li>
+        <li>
+          <a href="login.html">login</a>
+        </li>
+        <!-- <li>
+          <button id="dark-mode-toggle">Dark Mode</button>
+        </li> -->
+      </ul>
+      
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="rooms.html">romms</a>
+        </li>
+
+        <li>
+          <a href="login.html">login</a>
+        </li>
+      </ul>
+    </div>
+    <!-- end responcive nav bar -->
+
+    <section id="hero" class="wrapper">
+      <div class="left">
+        <h1>Book Your Stay</h1>
+        <p>
+          Welcome to Pacific Hotel – Your perfect getaway by the sea. Experience luxury, comfort, and unforgettable views, all in one place.
+        </p>
+        <button><a href="rooms.html">Book Now</a></button>
+      </div>
+      <div class="right">
+        <img
+          src="images/bg/Hotel Booking-pana.svg"
+          alt="hotel"
+        />
+      </div>
+    </section>
+    <div class="slider-container">
+      <button class="slider-button prev" onclick="moveSlide(-1)">
+        &#10094;
+      </button>
+      <div class="slider">
+        <!-- Room cards will be dynamically inserted here -->
+      </div>
+      <button class="slider-button next" onclick="moveSlide(1)">
+        &#10095;
+      </button>
+    </div>
+
+
+
+
+    <section class="footer">
+      <div class="footer-content">
+        
+        <div class="footer-about-us">
+          <h2>About Us</h2>
+          <p>
+            Pacific Hotel is a premier destination for travelers seeking luxury and comfort. Our hotel offers top-notch amenities and services to ensure a memorable stay.
+          </p>
+        </div>
+
+        <div class="footer-img">
+          <img
+            src="images/logo.png"
+            alt="logo"
+          />  
+        </div>
+        
+        <div class="footer-rights">
+          <h2>All Rights Reserved</h2>
+          <p>
+            &copy; 2025 Pacific Hotel
+          </p>
+        </div>
+
+    </section>
+   
+
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

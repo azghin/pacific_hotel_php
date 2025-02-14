@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page - Pacific Hotel</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <header>
+        <h1>Pacific Hotel Admin Page</h1>
+        <nav>
+            <ul>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="bookings.html">Bookings</a></li>                
+                <li><a href="../index.html">Logout</a></li>
+            </ul>
+        </nav>
+    <button id="darkModeToggle">Dark Mode</button>
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome, Admin</h2>
+            <p>Use the navigation menu to manage the hotel.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Pacific Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
