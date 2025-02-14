@@ -310,6 +310,21 @@ button {
   height: auto;
   border-radius: 10px;
 }
+.room-card a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.room-card a:hover {
+  background-color: #0056b3;
+}
 
 
 
@@ -345,7 +360,8 @@ button {
 .room-list{
   display: flex;
   flex-direction: column;
-  margin: 70px ;
+  margin: 70px 150px;
+
   background-color: white;
   box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1);
   color: #333;
@@ -393,11 +409,15 @@ button {
 }
 
 .room-list-card a {
-  margin-top: 10px;
-  font-size: 1rem;
-  color: #007BFF;
   text-decoration: none;
+  color: #fff;
   transition: color 0.3s ease;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
 room-list-card a:hover {
@@ -407,7 +427,7 @@ room-list-card a:hover {
 
 
 
-#reservation-form {
+/* #reservation-form {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -444,7 +464,7 @@ room-list-card a:hover {
 
 #reservation-form button:hover {
   background-color: #0056b3;
-}
+} */
 
 
 
@@ -488,11 +508,11 @@ room-list-card a:hover {
   margin-bottom: 70px;
 }
 
-#login-form {
+form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 50px auto;
   padding: 20px;
   background: #fff;
@@ -500,7 +520,20 @@ room-list-card a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#login-form input {
+form h2 {
+  margin: 0 0 20px;
+  font-size: 2rem;
+  color: #333;
+} 
+
+form p {
+  margin: 0 0 20px;
+  font-size: 1rem;
+  color: #666;
+}
+
+
+form input {
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -508,18 +541,18 @@ room-list-card a:hover {
   font-size: 1rem;
 }
 
-#login-form label {
+form label {
   font-size: 1rem;
   margin-bottom: 5px;
   color: #333;
 }
 
-#login-form input:focus {
+form input:focus {
   outline: none;
   border-color: #007BFF;
 }
 
-#login-form button {
+form button {
   padding: 10px;
   background-color: #007BFF;
   color: #fff;
@@ -530,7 +563,7 @@ room-list-card a:hover {
   transition: background-color 0.3s ease;
 }
 
-#login-form button:hover {
+form button:hover {
   background-color: #0056b3;
 }
 
@@ -540,7 +573,7 @@ room-list-card a:hover {
 .footer {
   display: flex;
   margin-top: 100px;
-  background-color: #d3d3ff; /* Light blue-white color */
+  background-color: #d3d3ff;
   padding: 20px;
 }
 

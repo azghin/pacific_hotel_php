@@ -65,7 +65,7 @@
     </div>
     <div class="right">
       <img
-        src="images/bg/Hotel Booking-pana.svg"
+        src="images/bg/Payment Information-rafiki.svg"
         alt="hotel"
       />
     </div>
@@ -75,13 +75,23 @@
         <!-- Room details will be dynamically loaded here -->
     </div>
 
-    <form id="reservation-form">
+    <section class="reservation">
+ <form id="reservation-form">
+        <h2>Book Your Stay</h2>
+        <p>Fill out the form below to reserve your room.</p>
+        <label for="guest-name">guest Name</label>
         <input type="text" id="guest-name" placeholder="Your Name" required>
+        <label for="guest-email">Email</label>
         <input type="email" id="guest-email" placeholder="Your Email" required>
+        <label for="check-in">Check-In Date</label>
         <input type="date" id="check-in" required>
+        <label for="check-out">Check-Out Date</label>
         <input type="date" id="check-out" required>
         <button type="submit">Book Now</button>
     </form>
+
+    </section>
+   
 
 
 
@@ -89,16 +99,30 @@
 
     <section class="footer">
       <div class="footer-content">
-        <div class="footer-section about">
+        
+        <div class="footer-about-us">
           <h2>About Us</h2>
           <p>
             Pacific Hotel is a premier destination for travelers seeking luxury and comfort. Our hotel offers top-notch amenities and services to ensure a memorable stay.
           </p>
         </div>
-        <div class="footer-section contact">
-          <h2>Contact Us</h2>
-          <p>Email:
+
+        <div class="footer-img">
+          <img
+            src="images/logo.png"
+            alt="logo"
+          />  
+        </div>
+        
+        <div class="footer-rights">
+          <h2>All Rights Reserved</h2>
+          <p>
+            &copy; 2025 Pacific Hotel
+          </p>
+        </div>
+
     </section>
+   
 
     <script src="js/room.js"></script>
     <script src="js/navbar.js"></script>

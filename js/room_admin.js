@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", (e) => {
         e.preventDefault();
 
+        const roomId = parseFloat(urlParams.get("id"));
         const roomName = document.getElementById('name').value;
         const roomDescription = document.getElementById('description').value;
         const roomPrice = parseFloat(document.getElementById('price').value);
